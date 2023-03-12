@@ -81,7 +81,6 @@ h1 {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    background-color: #f7fafd;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -104,6 +103,10 @@ h1 {
 .main-notification-content p, .new-notification-icon{
     display: inline;
     padding: 0px 3px 0px 3px;
+}
+
+.new-notification {
+    background-color: #f7fafd;
 }
 
 .notification-name {
