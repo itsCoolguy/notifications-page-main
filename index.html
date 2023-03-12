@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+    
+    <title>Notifications page</title>
+  </head>
+  <body>
+    <div id="notifications-frame">
+      <header>
+        <div id="header-static">
+          <h1>Notifications</h1>
+          <div id="notification-number">3</div>
+        </div>
+        <nav>
+          <button id="mark-all-read-button" onclick="markReadClicked()">Mark all as read</button>
+        </nav>
+      </header>
+  
+      <main>
+        <div class="notification-frame new-notification">
+          <div class="notification-outer-wrapper">
+            <img src="./assets/images/avatar-mark-webber.webp" alt="profile picture" class="profile-picture">
+            <div class="outer-notification-content">
+              <div class="main-notification-content">
+                <strong class="notification-name">Mark Webber</strong>
+                <p class="notification-content-text">reacted to your recent post</p>
+                <strong class="notification-subject">My first tournament today!</strong>
+                <div class="new-notification-icon"></div>
+              </div>
+              <div class="notification-time"><p>1m ago</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="notification-frame new-notification">
+          <div class="notification-outer-wrapper">
+            <img src="./assets/images/avatar-angela-gray.webp" alt="profile picture" class="profile-picture">
+            <div class="outer-notification-content">
+              <div class="main-notification-content">
+                <strong class="notification-name">Angela Gray</strong>
+                <p class="notification-content-text">followed you</p>
+                <div class="new-notification-icon"></div>
+              </div>
+              <div class="notification-time"><p>5m ago</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="notification-frame new-notification">
+          <div class="notification-outer-wrapper">
+            <img src="./assets/images/avatar-jacob-thompson.webp" alt="profile picture" class="profile-picture">
+            <div class="outer-notification-content">
+              <div class="main-notification-content">
+                <strong class="notification-name">Jacob Thompson</strong>
+                <p class="notification-content-text">has joined your group</p>
+                <strong class="notification-subject-blue">Chess Club</strong>
+                <div class="new-notification-icon"></div>
+              </div>
+              <div class="notification-time"><p>1 day ago</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="notification-frame">
+          <div class="notification-outer-wrapper">
+            <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="profile picture" class="profile-picture">
+            <div class="outer-notification-content">
+              <div class="main-notification-content">
+                <strong class="notification-name">Rizky Hasanuddin</strong>
+                <p class="notification-content-text">sent you a pivate message</p>
+                <div class="new-notification-icon"></div>
+              </div>
+              <div class="notification-time"><p>5 days ago</p></div>
+              <div class="notification-private-message-content">
+                <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+                  I'm already having lots of fun and improving my game.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="notification-frame">
+          <div class="notification-outer-wrapper">
+            <img src="./assets/images/avatar-kimberly-smith.webp" alt="profile picture" class="profile-picture">
+            <div class="outer-notification-content">
+              <div class="main-notification-content">
+                <strong class="notification-name">Kimberly Smith</strong>
+                <p class="notification-content-text">commented on your picture</p>
+                <div class="new-notification-icon"></div>
+              </div>
+              <div class="notification-time"><p>1 week ago</p></div>
+            </div>
+          </div>
+          <img src="./assets/images/image-chess.webp" alt="image_chess" class="aside-image">
+        </div>
+
+        <div class="notification-frame">
+          <div class="notification-outer-wrapper">
+            <img src="./assets/images/avatar-nathan-peterson.webp" alt="profile picture" class="profile-picture">
+            <div class="outer-notification-content">
+              <div class="main-notification-content">
+                <strong class="notification-name">Nathan Peterson</strong>
+                <p class="notification-content-text">reacted to your recent post</p>
+                <strong class="notification-subject">5 end-game stratagies to increase your win rate</strong>
+                <div class="new-notification-icon"></div>
+              </div>
+              <div class="notification-time"><p>2 weeks ago</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="notification-frame">
+          <div class="notification-outer-wrapper">
+            <img src="./assets/images/avatar-anna-kim.webp" alt="profile picture" class="profile-picture">
+            <div class="outer-notification-content">
+              <div class="main-notification-content">
+                <strong class="notification-name">Anna Kim</strong>
+                <p class="notification-content-text">left the group</p>
+                <strong class="notification-subject-blue">Chess Club</strong>
+                <div class="new-notification-icon"></div>
+              </div>
+              <div class="notification-time"><p>2 weeks ago</p></div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    
+    <script src="main_script.js"></script>
+  </body>
+</html>
