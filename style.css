@@ -81,10 +81,13 @@ h1 {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    background-color: #f7fafd;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 15px;
+}
+
+.new-notification {
+    background-color: #f7fafd;
 }
 
 .notification-outer-wrapper {
@@ -173,7 +176,7 @@ h1 {
         color: #0a317b;
         font-weight: 800;
     }
-    
+
     .notification-private-message-content:hover {
         cursor: pointer;
         background-color:#e5effa;
