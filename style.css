@@ -109,6 +109,10 @@ h1 {
     padding: 0px 3px 0px 3px;
 }
 
+.new-notification {
+    background-color: #f7fafd;
+}
+
 .notification-name {
     font-weight: 800;
     color: #1c202b;
