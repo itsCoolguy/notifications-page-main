@@ -202,7 +202,7 @@ h1 {
     
     #notifications-frame {
         padding: 25px;
-        height: auto;
+        height: 90%;
         border-radius: 10px;
         box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.1);
     }
